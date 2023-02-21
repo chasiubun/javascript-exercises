@@ -7,7 +7,7 @@ const convertToCelsius = function(temperature) {
   // outputs:
   //    temperature (number): in units of Celsius
   
-  let cel = temperature * (9/5) + 32;
+  let cel = (temperature - 32) * (5/9);
   cel.toFixed(1);
   return cel;
 };
@@ -21,7 +21,7 @@ const convertToFahrenheit = function(temperature) {
   // outputs:
   //    temperature (number): in units of Celsius
 
-  let fahr = (temperature - 32) * (5/9);
+  let fahr = temperature * (9/5) + 32;
   fahr.toFixed(1);
   return fahr;
 };
