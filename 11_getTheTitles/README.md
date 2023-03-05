@@ -24,3 +24,8 @@ getTheTitles(books) // ['Book','Book2']
 ## Hints
 
 - You should use a built-in javascript method to do most of the work for you!
+
+1. read the array:
+2. read every object in the array
+3. grab the value of the first key in every object of the array
+4. push the value of the first key in every object of the aray into a new array
